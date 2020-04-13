@@ -1,11 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Consumer does not see this-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--this links our styles to our html-->
+    <link rel="stylesheet" href="style/index.css">
+
     <title>Document</title>
+    <!-- Consumer does not see this -->
 </head>
 <body>
-    
+    <!-- Consumer Sees this -->
+    <!-- Header -->
+<header>
+    <div class='Headercontent'>
+    <h1>Matias Iturbide</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="projects.html">Projects</a>
+    </nav>
+    </div>
+</header>
+<!-- Main Content/body -->
+<section class ='MC'>
+    <!-- Big Picture and about me -->
+    <div class='highlight'> 
+        <!-- big picture -->
+         <img id='bigpicture'src="style/IMG/salespitch.jpg">
+         <!-- about me -->
+         <div class='aboutme'>
+         <h2 id='name'>My Name</h2>
+        <a id='projects' href="projects.html">My Projects</a>
+        <p id='work'>I am currently studying Web Development Through Lambda, I have more then 10 years of customer service, as well as working in groups and managing them.</p>
+            </div>
+    </div>
+    <!-- All the different Project lines -->
+    <div class="Projects">
+        <!-- First Line of Projects -->
+        <div class='line1'>
+            <!-- first box/title -->
+            <div class="box1">
+                <img src="style/IMG/classic.jpg">
+                <h3>Z31</h3>
+            </div>
+            <!-- second box/title -->
+            <div class="box2">
+                <img src='style/IMG/R32.jpg'>
+                <h3>R32 GT-R</h3>
+            </div>
+            <!-- Third Box/title -->
+            <div class="box3">
+                <img src='style/IMG/wet.jpg'>
+                <h3>180sx</h3>
+            </div>
+            <!-- fourth box/title -->
+            <div class="box4">
+                <img src='style/IMG/silvia.jpg'>
+                <h3>Silvia</h3>
+            </div>
+        </div>
+        <div class="line2">
+            <!-- Fifth box/title -->
+            <div class="box5">
+                <img src='style/IMG/R33.jpg'>
+                <h3>R33 GT-R</h3>
+            </div>
+            <!-- Sixth box/title -->
+            <div class='box6'>
+                <img src='style/IMG/R34.jpg'>
+                <h3>R34 GT-R</h3>
+            </div>
+            <!-- Seventh box/title -->
+            <div class="box7">
+                <img src='style/IMG/slammed.jpg'>
+                <h3>Slammed Toyota</h3>
+            </div>
+            <!-- Eighth box/title -->
+            <div class="box8">
+                <img src='style/IMG/Bull.jpg'>
+                <h3>Lamborghini</h3>
+            </div>
+        </div>
+</div>
+</section>
+<footer>
+    <div class='foot'>
+        <p id='like'>Like what you see?</p>
+        <a id='contact' href="contact.html">Contact Me</a>
+    </div>
+    <div class='social'>
+        <a href="www.facebook.com">Tacebook</a>
+        <a href="www.twitter.com">Twitter</a>
+        <a href="linkedin.com">Linkedin</a>
+    </div>
+</footer>
+    <!-- Consumer sees this -->
 </body>
 </html>
+
+<!--(above)this is where we write the html code (structure for the page)-->
